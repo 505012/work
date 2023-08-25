@@ -1,0 +1,67 @@
+// spread(스프레드 연산자) 연산자
+// 리엑트 많이 나옴 : 배열의 복사본을 이용해서 코딩
+// 1)배열의 복사 : 원본을 훼손하지 않음(*)
+// 사용법 : ...배열변수 ; //배열값을 복사함
+// let arr1 = [1, 2, 3, 4, 5];
+// //[1,2,3,4,5,6,7,8,9]
+// let arr2 = [...arr1, 6, 7, 8, 9];
+// console.log(arr2);
+
+// 에제 2) 문자배열 복사
+// let str1 = "paper block";
+// let str2 =[...str1];
+// console.log(str2)
+
+// 예제 3) 배열 2개 붙이기
+
+// let arr1 = [1,2,3]
+// let arr2 = [4,5,6]
+// let arr = [...arr1,...arr2]
+// console.log(arr)
+
+// 향상된 for문 : 인덱스 번호 자동증가
+// arr 배열의 끝까지 인덱스 번호를 1씩 자동으로 증가시키면서 반복함
+// let arr = [1,2,3,4,5,6]
+// console.log("일반")
+// for(let i = 0; i<arr.length; i++){
+//     console.log(arr[i])
+// }
+
+// console.log("향상")
+// for (const e of arr) {
+//     console.log(e);//e : 배열의 값
+// }
+
+// 2) 함수에서의 스프레드 연산자 사용예
+// 2-1) 함수 매개변수 : rest 연산자(==스프레드 연산자)
+// 용도 : 매개변수들을 모두 더해서 합계를 구하는 함수
+// function add(...rest){
+//     let sum = 0;
+//     for (const item of rest) {
+//         sum = sum + item;// item == 배열의(매개변수들의) 값
+//     }
+//     return sum;
+// }
+// console.log(add(1));
+// console.log(add(1,2));
+// console.log(add(1,2,3));
+
+// 2-2) js 내장함수에서의 스프레드 연산자 응용
+// 아래에서 최소값 구하세요
+// let num = [9,4,7,1]
+// let result = Math.min(...num)// 1
+// console.log(result);
+
+// 3)객체에서의 스프레드 연산자 사용
+// todo : 객체의 속성이 없으면 추가하고 있으면 수정한다
+let cur ={
+    name:"철수",
+     species:"human"
+}
+// 사용법 : ...객체변수
+
+cur = {...cur, age:10}
+console.log(cur)
+// 수정
+cur = {...cur, age:12}
+console.log(cur)
