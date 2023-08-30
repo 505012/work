@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+body{
+    width: 1000px;
+    margin: 10px auto;
+}
+/* 해더 */
+#home li{
+    display: inline-block;
+    margin: 40px 30px;
+    color: gray;
+    font-size: 14px;
+}
+#h3Tag{
+    color: gray;
+    text-align: center;
+    font-size: 40px;
+    background-image: url(../img/activity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 0;
+}
+#hUl li{
+    display: inline-block;
+    font-size: 5px;
+    color: red;
+}
+/* 본문 */
+section{
+    float: left;
+}
+section{
+    width: 700px;
+    margin: 10px auto;
+}
+#sid1{
+    border: 1px solid black;
+    padding: 10px;
+}
+.c{
+    font-weight: bolder;
+}
+
+#start{
+    float: left;
+    text-align: left;
+}
+#end{
+    text-align: right;
+}
+
+
+
+/* 사이드 */
+table{
+    border-left:1px solid black ;
+}
+#type {
+
+    padding: 20px;
+}
+#type td {
+    padding: 10px;
+}
+#new{
+    padding-left: 5px;
+    padding-top: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#new  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+#new th{
+        border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+/* 꼬리말 */
+footer{
+    clear: both;
+    margin-top: 20px;
+}
+
+#g{
+   padding: 20px; 
+}
+#g li{
+display: inline-block;
+margin-left: 20px;
+}
+#l1{
+    text-align: center;
+    line-height: 50px;
+    width: 100px;
+    height: 50px;
+}
+
+#l1 img{
+    width: 100px;
+    height: 50px;
+    margin:0px
+}
+
+#l2{
+    text-align: center;
+    line-height: 50px;
+    width: 100px;
+    height: 50px;
+}
+
+#l2 img{
+    width: 100px;
+    height: 50px;
+    margin:0px
+}
+
+#l3{
+    text-align: center;
+    line-height: 50px;
+    width: 100px;
+    height: 50px;
+}
+
+#l3 img{
+    width: 100px;
+    height: 50px;
+    margin:0px
+}
+
+#l4{
+    text-align: center;
+    line-height: 50px;
+    width: 100px;
+    height: 50px;
+}
+
+#l4 img{
+    width: 100px;
+    height: 50px;
+    margin:0px
+}

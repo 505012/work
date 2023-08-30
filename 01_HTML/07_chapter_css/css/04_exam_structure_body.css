@@ -1,0 +1,33 @@
+main > section {
+  margin-top: 60px;
+}
+main h2 {
+  margin-bottom: 40px;
+  font-size: 1.5em;
+}
+/* 이미지 + 상세 설명 */
+main div {
+  margin-top: 20px;
+}
+.contents {
+  margin: 0 auto;
+  width: 1000px;
+}
+.detail > img {
+  float: left;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.detail p {
+  color: #222;
+  margin-bottom: 30px;
+}
+main h3 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.schedule ul  li {
+  margin-bottom: 20px;
+}

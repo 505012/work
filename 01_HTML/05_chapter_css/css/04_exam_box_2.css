@@ -1,0 +1,23 @@
+#title1{
+    color: purple;
+}
+#title1:hover{
+    color: rgb(102, 255, 0);
+}
+#title1:active{
+    color: blue;
+}
+#weather{
+    font-weight: bold;
+    color: red;
+}
+#title2{
+    color: green;
+}
+#location{
+    font-weight: bold;
+}
+#notice{
+    font-weight: bold;
+    color: blue;
+}

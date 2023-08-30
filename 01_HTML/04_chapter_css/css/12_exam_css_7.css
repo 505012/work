@@ -1,0 +1,20 @@
+body{
+    font-family: '돋음';
+}
+
+h3{
+    color: blue;
+    font-family: '맑은 고딕';
+}
+p{
+   /* 자간 */ line-height: 150%;
+    font-size: 14px;
+}
+
+span{
+    font-weight: bold;
+}
+li{
+    font-size: 16px;
+    list-style-type: square;
+}

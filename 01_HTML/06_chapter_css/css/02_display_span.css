@@ -1,0 +1,20 @@
+/* span : inline속성, width/height 속성 무시, 글만큼 크기가 정해짐*/
+.box{
+    /* block 속성 지정 */
+    display: block;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+}.box2{
+    /* block 속성 지정 */
+    display: block;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}.box3{
+    /* block 속성 지정 */
+    display: block;
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+}

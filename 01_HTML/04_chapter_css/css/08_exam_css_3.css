@@ -1,0 +1,21 @@
+
+h2{
+    font-size: 25px;
+}
+span{
+    /* 굵은 글씨 */
+    font-weight: bold;
+}
+li{
+    /* 리스트에 이미지 적용 */
+    /* ./현재 경로 */
+    /* ../ 상위결로(부모경로) */
+    /* 이미지 가져오기 함수 : url(이미지경로) */
+    list-style-image:url(../../02_chapter_html/image/6.gif);
+}
+p{
+
+    color: green;
+    /* 밑줄 */
+    text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+body{
+    /* 배경이미지 */
+    background-image:url(../img/cm.jpg);
+    /* 이미지 반복 중단 */
+    background-repeat: no-repeat;
+}
+p{
+    /* 글자 크기 */
+    font-size: 20px;
+    /* 바깥여백 - 왼쪽 */
+    margin-left: 150px;
+    /* 바깥여백 - 위쪽 */
+    margin-top: 160px;
+    /* 가로 크기 */
+    width: 280px;
+}
+div{
+    text-align: center;
+    margin-left: 220px;
+    margin-top: 30px;
+    padding: 5px;
+    width: 120px;
+    background-color: blue;
+    color: white;
+    
+}

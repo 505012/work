@@ -1,0 +1,15 @@
+h3{padding: 10px 10px 10px 10px;
+    border-left:10px solid blue ;
+}
+p{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+ul{
+    margin: 0px 20px 0px 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+li{
+    padding: 10px 10px 10px 10px;
+}

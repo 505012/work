@@ -1,0 +1,25 @@
+/* float : 좌/우 배치 속성, div 박스들을 배치, 중앙배치 없음 */
+
+.box{
+    /* 가로 */
+    width: 100px;
+    /* 세로 */
+    height: 100px;
+    /* 배경색 */
+    background-color: red;
+    /* 마진 */
+    margin: 10px;
+    /* 좌로 배치 */
+    float: left;
+}
+.box2{
+    float: right;
+    /* 가로 */
+    width: 100px;
+    /* 세로 */
+    height: 100px;
+    /* 배경색 */
+    background-color: blue;
+    /* 마진 */
+    margin: 10px;
+}

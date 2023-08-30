@@ -1,0 +1,44 @@
+table{
+    /*viewport : 모니터의 화면(pc모니터에 맞추어보임, 테이블에 맞추어 보임) */
+    /* zhedtl 100vw ->pc,테블릿 등에서 적절하게 화면을 맞추어 줌 */
+    width: 610px;
+    border-collapse: collapse;
+}
+/* 디자인 적용 우선순위 -> 밑으로 갈수록 우선됨 */
+table,th,td{
+    border: 1px solid black;   
+}
+tr{
+    text-align: center;
+}
+th,td{
+    padding: 5px;
+}
+th{
+    width: 300px;
+}
+
+#table_title{
+    /* 테이블 제목 : 배경색 */
+    height: 30px;
+    background-color: #eeeeee;
+}
+
+
+.train{
+    background-color: #fbdbf2;
+    font-weight: bold;
+    color: #f1477b;
+    /* 밑줄 */
+    text-decoration: underline;
+}
+
+#col1,#col4{
+    width: 90px;
+}
+#col2,#col3{
+    width: 60px;
+}
+#col5,#col6{
+    width: 80px;
+}

@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+  h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Moirai One', cursive;
+  }
+  p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Nanum Pen Script', cursive;
+  }

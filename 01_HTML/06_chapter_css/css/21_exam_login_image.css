@@ -1,0 +1,12 @@
+fieldset {
+  width: 30vw;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+/* 라벨과 이미지 모두 세로 중앙 정렬 */
+label, input{
+  vertical-align: middle;
+}

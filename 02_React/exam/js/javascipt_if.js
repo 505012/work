@@ -415,7 +415,7 @@
 // let score
 // if(time>5){
 // num[1]++;
-// num[1] += parseInt((time-1)/5)  
+// num[1] += parseInt((time-1)/5)
 // }
 // if(num[1] == num[2]){
 //     console.log("same")
@@ -523,38 +523,37 @@
 // else console.log("pass");
 
 // 1231
-let num = prompt("계산 입력")
+let num = prompt("계산 입력");
 let cal;
-for(let i=0; i<num.length; i++){
-    if(num[i] == "+"){
-        cal = num[i]
-        num.split("+")
-        console.log(num[0],num[1],num[2],cal)
-    }
-    if(num[i] == "-"){
-        cal = num[i]
-        num.split("-")
-    }
-    if(num[i] == "*"){
-        cal = num[i]
-        num.split("*")
-    }
-    if(num[i] == "/"){
-        cal = num[i]
-        num.split("/")
-    }
+for (let i = 0; i < num.length; i++) {
+  if (num[i] == "+") {
+    cal = num[i];
+    num = num.split("+");
+  }
+  if (num[i] == "-") {
+    cal = num[i];
+    num = num.split("-");
+  }
+  if (num[i] == "*") {
+    cal = num[i];
+    num = num.split("*");
+  }
+  if (num[i] == "/") {
+    cal = num[i];
+    num = num.split("/");
+  }
 }
-switch(cal){
-    case "+":
-        console.log(num[0]+num[1]);
-        break;
-    case "-":
-        console.log(num[0]-num[1])
-        break;
-    case "*":
-        console.loe(num[0]*num[1]);
-        break;
-    case "/":
-        console.log(num[0]/num[1]);
-        break;
+switch (cal) {
+  case "+":
+    console.log(Number(num[0]) + Number(num[1]));
+    break;
+  case "-":
+    console.log(Number(num[0]) - Number(num[1]));
+    break;
+  case "*":
+    console.log(Number(num[0]) * Number(num[1]));
+    break;
+  case "/":
+    console.log(Number(num[0]) / Number(num[1]));
+    break;
 }

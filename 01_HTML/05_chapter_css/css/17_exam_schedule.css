@@ -1,0 +1,32 @@
+body{
+    color: #444444;
+}
+h3{
+    border-left: 5px solid green;
+    padding: 10px;
+}
+div{
+    width: 610px;
+    text-align: right ;
+    margin-bottom: 20px;
+}
+table{
+    width: 610px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 15px;
+}   
+tr{
+    padding: 5px;
+    height: 60px;
+    font-size: 12px;
+    text-align: left;
+    border: 1px solid black;
+}
+td{
+    padding: 5px;
+    width: 76px;
+    font-size: 12px;
+    text-align: left;
+    border: 1px solid black;
+}

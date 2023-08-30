@@ -1,0 +1,11 @@
+/* 목록 점 없애기 */
+h3{
+    color: blue;
+    /* 폰트 스타일 : 맑은 고딕 등 */
+    font-family: '맑은 고딕';
+}
+/* list-style-type: none;
+    list-style-type: 속성; */
+li{
+    list-style-type: none;
+}

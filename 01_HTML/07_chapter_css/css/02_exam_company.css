@@ -1,0 +1,66 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+ul {
+  list-style-type: none;
+}
+/* 전체 페이지 */
+#page {
+  width: 995px;
+  margin: 0 auto;
+}
+/* 머리말 */
+header {
+  border-bottom: 1px solid #cccccc;
+  width: 995px;
+  height: 100px;
+}
+#logo {
+  float: left;
+}
+#top {
+  margin-top: 30px;
+  float: right;
+}
+/* 더미 div : float 영향 제거용 */
+.clear {
+  clear: both;
+}
+nav {
+  width: 995px;
+  height: 70px;
+  margin-top: 20px;
+}
+nav li {
+  margin-top: 10px;
+  width: 150px;
+  /* 세로->가로배치 : isplay(inline-block), float:lft */
+  display: inline-block;
+}
+section {
+  margin-top: 20px;
+  float: left;
+}
+aside {
+  width: 370px;
+  margin-top: 20px;
+  float: right;
+}
+
+footer {
+    width: 995px;
+  height: 100px;
+  margin-top: 20px;
+  border-top: 1px solid gray;
+}
+#address {
+  margin-top: 20px;
+  margin-left: 50px;
+  float: left;
+}
+
+#customer {
+  margin-top: 20px;
+  float: right;
+}

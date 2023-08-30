@@ -1,0 +1,12 @@
+ul{
+    background-color: #f5f7e4;
+    border: 1px solid #cccccc;
+    width: 640px;
+    border-radius: 10px;
+    padding: 30px;
+}
+li{
+    list-style-type: none;
+    margin-left: 20px;
+    display: inline-block;
+}

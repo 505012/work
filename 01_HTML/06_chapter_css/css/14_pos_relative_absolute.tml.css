@@ -1,0 +1,17 @@
+/* 부모(relative) + 자식(absolute) 같이 사용하면 현상 */
+/* 자식div 태그에 absolute의 (0,0) 웹브라우저가 아니라, 부모div 박스의 왼쪽/위 모서리로 변경됨 */
+.parent{
+    width: 500px;
+    height: 500px;
+    border:1px solid gray;
+    position: relative;
+}
+.box2{
+    width: 100px;
+    height: 100px   ;
+    background-color: red  ;
+    /* 절대 좌표 */
+    position:absolute;
+    left: 50px;
+    top: 150px;
+}

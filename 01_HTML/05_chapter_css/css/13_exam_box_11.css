@@ -1,0 +1,31 @@
+/* css 디자인 여백 초기화 */
+/* 웹브라우저(크롬, 익스프로어,파이어폭스 등) */
+*{
+    padding: 0;
+    margin: 0;
+}
+#banner{
+    padding: 10px;
+    width: 320px;
+    height: 180px;
+    background-color: rgb(250, 236, 250);
+    margin: 20px;
+}
+h3{
+    margin: 10px;
+}
+p{
+    margin: 10px;
+}
+#button{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    background-color: deeppink;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+}

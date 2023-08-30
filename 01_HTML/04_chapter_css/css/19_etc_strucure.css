@@ -1,0 +1,19 @@
+/* 구조 선택자 */
+li {
+  /* 목록 점 없애기 */
+  list-style-type: none;
+}
+/* 2n : 짝수 2n+1 : 홀수
+    사용법 : 
+            선택자:nth-child(수식){
+                속성:값;} */
+li:nth-child(2n) {
+  /* 10진수 1~9까지, 16진수 1~15까지, 8진수 1~7까지 2진수 0,1 */
+  /* 16진수 10a 11b 12c 13d 14e 15f */
+  /* 색깔 지정 : red, 색상표 표기(#16진수 6자리) */
+  background-color: #ff0003;
+}
+
+li:nth-child(2n + 1) {
+  background-color: #800000;
+}
